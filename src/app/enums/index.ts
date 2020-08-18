@@ -1,0 +1,1 @@
+export { NutritionalType } from "./nutritional-type.enum";
