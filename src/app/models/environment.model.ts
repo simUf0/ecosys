@@ -4,7 +4,7 @@ import { World } from './world.model';
 export class Environment extends BaseModel {
 
   private static DEFAULT_OXYGEN_LEVEL = .8;
-  private static DEFAULT_NUTRIENT_LEVEL x= .5;
+  private static DEFAULT_NUTRIENT_LEVEL = .5;
 
   private _world: World;
   private _oxygenLevel = Environment.DEFAULT_OXYGEN_LEVEL;
